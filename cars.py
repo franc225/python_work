@@ -19,3 +19,10 @@ print(cars)
 
 cars.reverse()
 print(cars)
+
+for car in cars:
+    if car == "bmw" or car == "audi":
+        print(car.upper())
+    else:
+        if car == "toyota" and car.upper() == "SUBARU":
+            print(car.title())
